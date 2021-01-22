@@ -1,0 +1,68 @@
+$font-family: 'Arvo', serif;
+
+.formTask{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 3px;
+    font-family: $font-family;
+}
+
+/*.inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+.input--group{
+    position: relative;   
+}
+
+.inputTask{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid rgb(202, 202, 202);
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    height: 2rem;
+    font-size: 16px;  
+    margin-bottom: 2rem; 
+    font-family: $font-family;
+    &--priority{
+        width: 70%;
+        cursor: pointer;
+        margin-left: .6rem;
+        margin-bottom: 4rem;
+        color: rgb(161, 161, 161);
+    }
+}
+
+.textArea{
+    height: 4rem;
+    resize: none;
+    font-family: $font-family;
+}
+
+.label--priority{
+    color: rgb(95, 95, 95);
+}
+
+/*.btn--save{
+    height: 2rem;
+    background-color: rgb(38, 168, 255);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    margin-top: 1rem;
+}*/
+button{
+    font-family: $font-family;
+}

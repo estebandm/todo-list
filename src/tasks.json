@@ -1,0 +1,28 @@
+{
+    "tasks": [
+        {
+            "id": "1",
+            "title": "task1",
+            "author": "Esteban",
+            "description": "asdasdasd",
+            "priority": "alto",
+            "state": "succes"
+        },
+        {
+            "id": "2",
+            "title": "task2",
+            "author": "Pablo",
+            "description": "asdasdasd",
+            "priority": "alto",
+            "state": "pending"
+        },
+        {
+            "id": "3",
+            "title": "task3",
+            "author": "Juan",
+            "description": "asdasdasd",
+            "priority": "alto",
+            "state": "delete"
+        }
+    ]
+}

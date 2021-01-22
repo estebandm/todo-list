@@ -1,0 +1,28 @@
+.btn__default{
+    height: 2rem;
+    background-color: $buttonDefault;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    margin-top: 1rem;
+    &:hover{
+        background-color: $btnDefaultHover;
+    }
+}
+
+.btn__disabled{
+    opacity: .5;    
+    cursor: no-drop;
+}
+
+.btn__back{
+    border: 1px solid white;
+    &:hover{
+        background-color: white;
+        color: $buttonDefault;
+        border: 1px solid $buttonDefault;
+    }
+}

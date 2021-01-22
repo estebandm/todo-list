@@ -1,0 +1,75 @@
+$font-family: 'Langar', cursive;
+
+.containerTask{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px #000000;
+    border-radius: 3px;
+    font-family: $font-family;
+}
+
+.succes{    
+    background-color: rgba(123, 233, 123, 0.788);
+    .title__succes{
+        color: rgb(255, 255, 255);
+        text-shadow: rgb(9, 77, 9) .5px 2px 1px;
+        margin-top: 3rem;
+    }
+    .btn__succes{
+        width: 40%;
+       // background-color: rgb(34, 148, 34);
+        background-color: rgb(77, 18, 172);
+        font-size: 1rem;
+        margin-bottom: 3rem;
+        box-shadow: 1px 1px  rgb(26, 104, 26);
+        //text-shadow: rgb(68, 68, 68) .5px 2px 1px;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 2px;
+    }
+}    
+
+.pending{    
+    background-color: rgb(224, 226, 83);
+    .title__pending{
+        color: rgb(255, 255, 255);
+        text-shadow: rgb(62, 77, 9) .5px 2px 1px;
+        margin-top: 3rem;        
+    }
+    .btn__pending{
+        width: 40%;
+        //background-color: rgb(187, 190, 0);
+        background-color: rgb(77, 18, 172);
+        font-size: 1rem;
+        margin-bottom: 3rem;
+        box-shadow: 1px 1px  rgb(149, 151, 0);        
+         font-family: 'Fredoka One', cursive;
+         letter-spacing: 2px;
+    }
+}    
+
+.delete{    
+    background-color: rgb(226, 83, 83);
+    .title__delete{
+        color: rgb(255, 255, 255);
+        text-shadow: rgb(77, 9, 9) .5px 2px 1px;
+        margin-top: 3rem;
+    }
+    .btn__delete{
+        width: 40%;
+       // background-color: rgb(156, 8, 8);
+        background-color:rgb(77, 18, 172);
+        font-size: 1rem;
+        margin-bottom: 3rem;
+        box-shadow: 1px 1px   rgb(102, 2, 2);        
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 2px;
+    }
+}    
+
+.amountOfTasks{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
